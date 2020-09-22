@@ -25,7 +25,48 @@ const mySchema ={
     "lastName": {
       "type": "string",
       "title": "Owner Last Name"
-    }
+    },
+    "address": {
+      "type": "string",
+      "title": "Residential Address (required)"
+    },
+    "aptNum": {
+      "type": "integer",
+      "title": "Apt #"
+    },
+    "email": {
+      "type": "string",
+      "title": "Email Address",
+    },
+    "secondEmail": {
+      "type": "integer",
+      "title": "Secondary Email"
+    }, 
+    "city": {
+      "type": "string",
+      "title": "City"
+    },
+    "state": {
+      "type": "string",
+      "title": "State"
+    },
+    "zip": {
+      "type": "integer",
+      "title": "Zip"
+    },
+    "homePhone": {
+      "type": "string",
+      "title": "Home Phone",
+      "pattern": "^(\\([0-9]{3}\\))?[0-9]{3}-[0-9]{4}$"
+    },
+    "workPhone": {
+      "type": "string",
+      "title": "State"
+    },
+    "altPhone": {
+      "type": "integer",
+      "title": "Zip"
+    },
 }
 };
 
